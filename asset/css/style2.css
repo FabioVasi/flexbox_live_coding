@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+padding: 1rem;
+}
+header{
+height: 100px;
+background-color: red;
+margin-bottom: 1rem;
+}
+.flex_container{
+display: flex;
+justify-content: space-between;
+}
+.sidebar{
+width: 25%;
+background-color: yellow;
+height: 300px;
+padding: 1rem;
+}
+main{
+width: 48%;
+background-color: blue;
+height: 450px;
+padding: 1rem;
+}
+aside{
+width: 25%;
+background-color: green;
+height: 300px;
+}
+footer{
+background-color: black;
+margin-top: 1rem;
+height: 100px;
+}
+img{
+    max-width: 100%;
+    padding: 1rem;
+}
